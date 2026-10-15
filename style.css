@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgba(6, 9, 59, 0.945);
+    height: 100vh;
+    margin: 0;
+    padding: 40px 16px;
+
+    
+
+}
+#title{
+    margin-left:80px ;
+}
+
+#div-pai{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(189, 200, 209, 0.938);
+    width: 100%;
+    max-width: 500px;
+}
+
+#tarefas{
+    background-color: rgba(49, 52, 83, 0.945);
+    border-radius: 12px;
+    padding: 32px;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    color:aliceblue;
+}
+#input-tarefas{
+    padding: 5px;
+    font-size: small;
+    border-radius:7px;
+    background-color: #111669;
+    border: none;
+    color:aliceblue;
+    margin-left: 10px;
+    width: 63%;
+    margin-bottom: 10px;
+
+}
+
+#botao-tarefas{
+    padding: 5px;
+    font-size: small;
+    border-radius:7px;
+    background-color: #111669;
+    border: none;
+    color:aliceblue;
+    /* margin-left: 10px; */
+}
+
+#listaGeral{
+    list-style: none;
+    padding: 0;
+}
+ul > li{
+    text-align: left;
+    display: flex;
+    justify-content:space-between;
+    background-color: #0b2c52;
+    margin-top: 10px
+}
+
+.tarefaRealizada{
+    text-decoration:line-through;
+    background-color: rgb(98, 104, 109);
+    color: #00c21a86;
+}
+
+#botoes{
+    display: flex;
+    justify-content:space-between
+    
+}
+.todas-tarefas, .tarefas-concluidas, .tarefas-pendente{
+    margin-top: 24px;
+    padding: 5px;
+    background-color: #111669;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 0 5px;
+
+}
+
+h3{
+    background-color: #111669;
+    border-radius: 10px;
+}
